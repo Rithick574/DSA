@@ -8,16 +8,12 @@ class Stack{
     }
 
     pop(){
-        // if(this.isEmpty){
-        //     return null;
-        // }
+        
        return this.stack.pop()
     }
 
     peek(){
-        // if(this.isEmpty){
-        //     return null;
-        // }
+        
        return this.stack[this.stack.length-1]
     }
     isEmpty(){

@@ -9,8 +9,6 @@ class HashTable{
             return hash;
         }
     }
-
-
     set(key,value){
      const index=this.hashFunction(key);
      if(!this.data[index]){

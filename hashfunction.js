@@ -26,7 +26,6 @@ function simpleHash(input) {
     return hash;
   }
   
-  // Example usage
   const inputData = "example";
   const hashValue = simpleHash(inputData);
   console.log(`Hash value for "${inputData}" is ${hashValue}`);

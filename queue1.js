@@ -31,8 +31,7 @@ class queLinkedlist{
             while(temp.data !== data){
                 temp=temp.next;
             }
-            // this.head=this.head.next;
-            
+            this.head=this.head.next;
         }
         
     }
